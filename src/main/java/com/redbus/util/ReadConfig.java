@@ -11,7 +11,7 @@ public class ReadConfig {
     Properties properties;
 
     public ReadConfig(){
-        File file = new File("C:\\Users\\ashin\\Documents\\APP Testing Version one\\RedBusCucumber\\src\\test\\resources\\config.properties");
+        File file = new File(System.getProperty("user.dir")+"\\src\\test\\resources\\config.properties");
         try {
             FileInputStream fileInputStream = new FileInputStream(file);
             properties = new Properties();
