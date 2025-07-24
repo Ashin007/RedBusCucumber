@@ -9,7 +9,7 @@
     </listeners>
     <test name="Sample Test" >
         <classes>
-            <class name="com.redbus.MyTest"/>
+            <class name="com.redbus.testrunners.WebTestRunner"/>
         </classes>
     </test>
 </suite>
